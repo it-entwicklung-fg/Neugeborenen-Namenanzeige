@@ -1,0 +1,62 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    margin: 0px;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+}
+
+img.logo {
+    height: 80px;
+    margin: 10px 0px 10px 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+section {
+    display: inline-block;
+    text-align: center;
+    flex-basis: 20%;
+    min-width: max-content;
+    margin: 0px 30px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.madeby p {
+    text-align: center;
+    margin: 0px 0px 5px 0px;
+}
+
+.madeby {
+    display: inline-block;
+    margin: 11px 15px 0px auto;
+}
