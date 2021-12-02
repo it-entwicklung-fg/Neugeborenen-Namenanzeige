@@ -25,6 +25,10 @@ img.logo {
     margin: 10px 0px 10px 20px;
 }
 
+.madeby img {
+    height: 50px;
+}
+
 h1 {
     font-size: 3em;
     margin: 0px;
